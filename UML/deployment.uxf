@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>140</x>
+      <y>60</y>
+      <w>720</w>
+      <h>680</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Cloud-server
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>160</x>
+      <y>120</y>
+      <w>470</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Web Server&gt;&gt;
+Apache
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>180</x>
+      <y>180</y>
+      <w>410</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Execution Environment&gt;&gt;
+Maven
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>200</x>
+      <y>240</y>
+      <w>350</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Application&gt;&gt;
+Webshop
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>300</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Component
+
+JSP - view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>390</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Component
+
+Stock - dbconnection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>480</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Component
+
+ShoppingCart</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>660</x>
+      <y>420</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Database system&gt;&gt;
+MySQL
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>940</x>
+      <y>550</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Third Party&gt;&gt;
+Payment-API
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>420</y>
+      <w>310</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;60.0;290.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>570</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Component
+
+Payment</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>600</y>
+      <w>590</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;570.0;10.0</additional_attributes>
+  </element>
+</diagram>

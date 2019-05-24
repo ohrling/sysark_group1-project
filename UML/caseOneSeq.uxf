@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>602</x>
+      <y>203</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Page</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>959</x>
+      <y>203</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>217</y>
+      <w>21</w>
+      <h>644</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;900.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>217</y>
+      <w>21</w>
+      <h>637</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;890.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>987</x>
+      <y>217</y>
+      <w>28</w>
+      <h>511</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>238</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+1. Navigates to homepage</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>630</x>
+      <y>252</y>
+      <w>14</w>
+      <h>511</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=cyan
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>987</x>
+      <y>287</y>
+      <w>14</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>791</x>
+      <y>280</y>
+      <w>210</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+3. Tries to get articles from database</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>791</x>
+      <y>315</y>
+      <w>210</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4. Returns articles in database</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>336</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+6. Displays articles</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>602</x>
+      <y>357</y>
+      <w>441</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+-.
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>385</x>
+      <y>154</y>
+      <w>56</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>378</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+7. Clicks "more information"</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>756</x>
+      <y>203</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>217</y>
+      <w>21</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;880.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>784</x>
+      <y>280</y>
+      <w>14</w>
+      <h>462</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>266</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+2. Requesting list of articles</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>322</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+5. Returns list of articles</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>581</x>
+      <y>301</y>
+      <w>483</w>
+      <h>490</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>791</x>
+      <y>700</y>
+      <w>224</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+7. Exception</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>721</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+8. Generates errormessage</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>742</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+9. Displays errormessage</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>602</x>
+      <y>301</y>
+      <w>147</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Connection to db established
+style=wordwrap
+layer=9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>595</x>
+      <y>679</y>
+      <w>119</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Connection to db failed
+style=wordwrap
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>385</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+8. Gets article-info</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>413</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+9. Returns more info</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>791</x>
+      <y>525</y>
+      <w>175</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+13. Create cart / Adds to cart</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>434</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+10. Displays information</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>476</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+11. Clicks "add to cart"</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>504</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+12. Adds article to cart</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>560</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+13. Returns number of articles</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>574</y>
+      <w>238</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+14. Displays nr of articles in cart</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>994</x>
+      <y>707</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
