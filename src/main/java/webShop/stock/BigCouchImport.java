@@ -1,7 +1,7 @@
 package webShop.stock;
 
+import webShop.article.Article;
 import java.util.List;
-import webShop.Article;
 
 public class BigCouchImport implements StockImport {
     @Override

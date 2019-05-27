@@ -1,5 +1,7 @@
 package webShop;
 
+import webShop.article.Article;
+
 
 public class PageController {
 

@@ -1,7 +1,5 @@
 package webShop.article;
 
-import webShop.Article;
-
 public abstract class Couch implements Article {
     protected String name;
     protected String info;

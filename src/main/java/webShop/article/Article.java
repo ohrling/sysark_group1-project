@@ -1,4 +1,4 @@
-package webShop;
+package webShop.article;
 
 public interface Article {
 	String getName();

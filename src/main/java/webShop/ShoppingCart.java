@@ -1,4 +1,5 @@
 package webShop;
+import webShop.article.Article;
 import java.util.ArrayList;
 import java.util.List;
 

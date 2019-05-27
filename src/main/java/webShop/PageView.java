@@ -1,5 +1,6 @@
 package webShop;
 
+import webShop.article.Article;
 import java.util.List;
 
 public class PageView {

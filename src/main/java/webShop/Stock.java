@@ -1,5 +1,6 @@
 package webShop;
 
+import webShop.article.Article;
 import webShop.stock.StockImport;
 import webShop.stock.BigTableImport;
 import webShop.stock.SmallCouchImport;
