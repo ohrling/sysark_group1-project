@@ -26,17 +26,6 @@
 // This text will be stored with each diagram;  use it for notes.</help_text>
   <zoom_level>10</zoom_level>
   <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>240</x>
-      <y>110</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>User</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>280</x>
@@ -446,6 +435,17 @@ style=wordwrap</panel_attributes>
       <h>20</h>
     </coordinates>
     <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>260</x>
+      <y>40</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>User</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
